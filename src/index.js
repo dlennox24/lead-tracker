@@ -3,7 +3,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import NewLead from './components/NewLead';
+import Lead from './components/Lead';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -12,7 +12,7 @@ ReactDOM.render(
     {/* <App foo={1} /> */}
     <div style={{ padding: 24 }}>
       <Paper style={{ padding: 24 }}>
-        <NewLead />
+        <Lead />
       </Paper>
     </div>
   </ThemeProvider>,
