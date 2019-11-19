@@ -24,3 +24,11 @@ function App(props) {
 }
 
 export default App;
+
+switch (key) {
+  case value:
+    break;
+
+  default:
+    break;
+}
